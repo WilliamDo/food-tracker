@@ -2,4 +2,4 @@ language: objective-c
 os: osx
 osx_image: xcode9.2
 script:
-  - xcodebuild clean test -sdk iphonesimulator -project FoodTracker.xcodeproj -scheme FoodTracker
+  - xcodebuild clean test -sdk iphonesimulator -project FoodTracker.xcodeproj -scheme FoodTracker -destination 'platform=iOS Simulator,name=iPhone 7,OS=11.2'
