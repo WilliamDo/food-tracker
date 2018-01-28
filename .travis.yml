@@ -1,4 +1,4 @@
 language: swift
 xcode_project: FoodTracker.xcodeproj # path to your xcodeproj folder
-xcode_scheme: FoodTracker
+xcode_scheme: FoodTrackerTests
 osx_image: xcode9.2
